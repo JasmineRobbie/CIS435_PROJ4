@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    
+   
+</head>
+ 
+<!--BODY-->
+
+<body>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Welcoming user-->
+    <h1>Here are your goals</h1>
+    <!-- Table starts here-->
+   
+    
+<!--
+    <div class="container">
+        Tab 1
+        <div id = "creatingGoal" class="tab_1" visibility = "collapse">
+            <table>
+                <tr>
+                    <th> GOAL:</th>
+                    <th> Difficulty: </th>
+                </tr>
+            </table>
+        </div>
+-->
+
+        <!--Tab 2--> <!-- This is collapsed until we see that user wants/needs to add new goals-->
+        
+        
+
+<!--Creating a dynmic -->
+<div class="goal-list">
+			<ul id="list">
+				<li>
+                    <div>
+                        <h4>First note</h4> 
+					<p><i class="fa fa-pencil-square-o"></i><i class="fa fa-times"></i></p>
+					<p>Parts to complete: </p>
+                   <p>Time left: </p>
+                    </div>
+				</li>
+			</ul>
+		</div>
+		<div id="hide-list">
+		  
+            <button onclick = "goalAddButtonOnClick()">Create a new goal</button>
+		   
+	    </div>
+    
+    <div style = "margin-top: 10%">
+            GOAL: <input type="text" style="background-color: rgb(255, 255, 255)" name="goal" id="goal" >
+            <b>Difficulty: </b>
+            <i style = "background-color: rgb(43, 255, 0)">Easy: </i><input type="checkbox";  name="easy" id="easyCheckBox"></input>
+            Medium: <input type="checkbox" style="background-color: rgb(253, 173, 0)" name="medium" id="mediumCheckBox">
+            Difficult: <input type="checkbox" style="background-color: rgb(255, 0, 0)" name="hard" id="hardCheckBox">
+
+
+            <button  id = "addGoal">Add GOAL</button>
+            
+        </div>
+    <!-- Table ends here-->
+
+    <!--<button style="padding: 5px" id="idea1">VOTE!</button>-->
+    <!--<button class="myButton:" style="font: bold" ></button>-->
+    <!-- scrolling function FIXME-->
+    <div id="" style="overflow-y: scroll; overflow: hidden; height: fit-content; width:fit-content;"></div>
+</body>
+
+</html>

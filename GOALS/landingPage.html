@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head> 
+        
+  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Goals</title>
+    <h1>Welcome to Goals. Get ready to complete your work.</h1>
+    <h3 id = "headerHello">Hello</h3>
+</head>
+    
+<body>
+    
+    
+   <button onclick="loginForm()" id = "login_button"; style = "margin-left: 50%; margin-top: 20px"; type="button">Login</button>
+    
+    <p style = "margin-left: 51%; margin-top: 20px">OR</p>
+    
+    
+    <button onclick = "registrationForm()"; id = "registerButton"; style = "margin-left: 49%; margin-top: 20px"; id = "register_button">Register</button>
+    
+    
+<!--    This is getting the user's information to register/login onto the website-->
+    <div id = "formDiv"; style = "visibility: collapse">
+        
+        <p id = "form_header" style = "margin-top: 30px; margin-left: 40%">PlaceHolder</p>
+ Enter your email:<br>
+  <input id = "userEmail"  type="text" name="userEmail"><br>
+  Enter a password:<br>
+  <input id = "password"; type="password" name="password">
+        <button  id = "submitButton">Submit</button>    
+    </div>
+   
+    
+    <button id = "logOutButton"; onclick = "logOut()">Log Out</button>
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+    
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCiljxFA9NzF4ub15LF43mRs8TMTAxigvM",
+    authDomain: "mhacks12-b76cf.firebaseapp.com",
+    databaseURL: "https://mhacks12-b76cf.firebaseio.com",
+    projectId: "mhacks12-b76cf",
+    storageBucket: "mhacks12-b76cf.appspot.com",
+    messagingSenderId: "282005227051",
+    appId: "1:282005227051:web:a8798ed13eedd1168acc6e",
+    measurementId: "G-6X6R140KDV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+     <script src="landingPageBackend.js"></script>
+</body>
+    
+</html>

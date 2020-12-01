@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFFAFA;
+    
+}
+
+h1 {
+    padding: 0px;
+    color: black;
+    margin-left: 17px;
+    
+}
+
+button {
+    font: 40px;
+    padding: 2px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    
+    
+}

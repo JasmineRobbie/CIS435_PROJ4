@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient(rgb(255, 235, 148), rgb(130, 247, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainHeader {
+    padding: 20px;
+    text-align: center; 
+    transition: background-color 1s linear;
+    background-image: url(Spirality_drawing.png);
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+
+    background: -webkit-linear-gradient(rgb(255, 81, 0), rgb(207, 255, 74));
+    /*backround-clip must be defined here first in order to be compatible*/
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.7px;
+    -webkit-text-stroke-color: rgb(0, 0, 0)
+}
+
+.subHeader{
+    padding: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+
+h1 {
+    font: 1.5em verdana, helvetica, sans-serif;
+    margin-left: 5em;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(0, 225, 255);
+    background-origin: padding-box;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    outline-style: hidden;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #000000;
+    text-align: right;
+    animation: ease-in-out;
+}
+
+
+
+
+
+
+.settings{
+    background-image: url("Windows_Settings_app_icon.png");
+}
+
+.myButton {
+    background-color: #f20808;
+    border-radius: 300px;
+    border: 1px solid #0f0509;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 30px;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.myButton:hover {
+    background-color: #5cbf2a;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
